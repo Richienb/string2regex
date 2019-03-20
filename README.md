@@ -1,2 +1,2 @@
-# string2regex
-Convert a string to a usage regex
+# String2Regex
+Convert a string encoded regex into a usable one.
