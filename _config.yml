@@ -1,0 +1,3 @@
+theme: jekyll-theme-cayman
+title: String2Regex
+description: Convert a string encoded regex into a usable one.

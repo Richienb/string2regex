@@ -1,0 +1,16 @@
+{
+    "name": "string2regex",
+    "version": "0.0.0",
+    "description": "Convert a string encoded regex into a usable one.",
+    "main": "string2regex.min.js",
+    "scripts": {
+        "start": "node string2regex.js",
+        "compile": "google-closure-compiler --compilation_level=bundle --js=string2regex.js --js_output_file=string2regex.min.js"
+    },
+    "repository": "https://github.com/Richienb/string2regex.git",
+    "author": "Richie Bendall <richiebendall@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "google-closure-compiler": "^20190301.0.0"
+    }
+}
