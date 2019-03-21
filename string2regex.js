@@ -9,4 +9,4 @@ const String2Regex = str => {
   return new RegExp(main, options)
 }
 
-export default GGScript
+export default String2Regex
