@@ -1,6 +1,6 @@
 {
     "name": "string2regex",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "Convert a string encoded regex into a usable one.",
     "repository": "https://github.com/Richienb/string2regex.git",
     "author": "Richie Bendall <richiebendall@gmail.com>",
