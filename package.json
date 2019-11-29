@@ -2,15 +2,39 @@
     "name": "string2regex",
     "version": "0.0.0",
     "description": "Convert a string encoded regex into a usable one.",
-    "main": "string2regex.min.js",
-    "scripts": {
-        "start": "node string2regex.js",
-        "compile": "google-closure-compiler --compilation_level=bundle --js=string2regex.js --js_output_file=string2regex.min.js"
-    },
     "repository": "https://github.com/Richienb/string2regex.git",
     "author": "Richie Bendall <richiebendall@gmail.com>",
     "license": "MIT",
+    "main": "index.js",
+    "files": [
+        "index.js",
+        "index.d.ts"
+    ],
+    "engines": {
+        "node": ">=6"
+    },
+    "scripts": {
+        "lint": "xo",
+        "test": "yarn lint && ava"
+    },
+    "keywords": [
+        "regex",
+        "string",
+        "convert",
+        "parse"
+    ],
+    "dependencies": {
+        "named-regexp-groups": "^1.0.5"
+    },
     "devDependencies": {
-        "google-closure-compiler": "^20190301.0.0"
+        "ava": "^2.1.0",
+        "eslint-config-richienb": "^0.2.2",
+        "xo": "^0.25.3"
+    },
+    "resolutions": {
+        "eslint": "^6.6.0"
+    },
+    "xo": {
+        "extends": "richienb/node"
     }
 }
